@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: blanchedalmond;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aquamarine;
+    font-size: 1.2em;
+}

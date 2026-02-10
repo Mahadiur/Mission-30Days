@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 3px 3px white;
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(65, 38, 38);
+    box-shadow: 3px 3px 5px white;
+
+}
