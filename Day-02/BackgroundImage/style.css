@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+img{
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    float: left;
+}
+
+p{
+    color: white;
+}
