@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    border: 3px solid yellow;
+}
+
+.container + p{
+    color: rebeccapurple;
+}
+

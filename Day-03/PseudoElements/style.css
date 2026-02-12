@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    width: 300px;
+    height: 350px;
+    border: 3px solid rebeccapurple;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 200px;
+    overflow: hidden;
+}
+h2{
+    text-align: center;
+}
+.container h2::first-letter{
+    color: aquamarine;
+}
+.container p{
+    padding-left: 5px;
+}
+.container h3{
+    padding-left: 5px;
+    color: greenyellow;
+}
+.container ul{
+    list-style-type: none;
+}
+.container p::first-line{
+    color: aquamarine;
+}
+.container p::selection{
+    color: blueviolet;
+}
+
+.Fruits li::before{
+    content: '✅';
+} 
+
+.Fruits #apple::after{
+    content: '🍎';
+}
+.Fruits #banana::after{
+    content: '🍌';
+}
+.Fruits #mango::after{
+    content: '🥭';
+}
