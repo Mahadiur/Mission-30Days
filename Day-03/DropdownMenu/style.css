@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.container{
+    width: 100%;
+   text-align: center;
+}
+
+.container h2{
+    color: brown;
+}
+
+.container select{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 50px;
+    font-size: medium;
+    font-weight: bold;
+}
+.info h3{
+    color: blueviolet;
+    font-size: xx-large;
+    margin-left: 20px;
+}
+
+.info p{
+    color: beige;
+    margin: 20px;
+}
