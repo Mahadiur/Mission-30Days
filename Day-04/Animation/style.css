@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    font-size: 6em;
+    animation: slidedownrotate;
+    animation-duration: 10s;
+}
+
+@keyframes slideleft{
+    from{
+        transform: translateX(300px);
+    }
+}
+
+@keyframes slidedown{
+    to{
+        transform: translateY(300px);
+    }
+}
+
+@keyframes slidedownrotate{
+    from{
+        transform: translate(300px) skewX(60deg);
+    }
+}
+

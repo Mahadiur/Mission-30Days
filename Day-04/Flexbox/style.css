@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+.container{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+}
+.container2{
+    border: 1px solid yellow;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid gray;
+    background-color: green;
+
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+    border: 2px solid gray;
+    background-color: aquamarine;
+}
+
+#box4{
+    align-self: flex-end;
+}

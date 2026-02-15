@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: whitesmoke;
+}
+h2{
+    text-align: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 5em;
+    transform:translateX(300px);
+}
