@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar li{
+    float: left;
+    padding: 2em;
+    list-style-type: none;
+    font-weight: bolder;
+}
+.navbar li:hover{
+    color: rgb(93, 88, 88);
+}
+.slider{
+    width: 100%;
+    height: 300px;
+    background-color: wheat;
+    margin-top: 1em;
+}
+
+.options{
+    text-align: center;
+    padding: 3em;
+}
+
+.options a{
+    color: white;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bolder;
+}
+.options a:hover{
+    background-color: rgb(72, 177, 105);
+}
+.options a:not(hover){
+    background-color: grey;
+}
+
+.about{
+    width: 100%;
+    height: 40vh;
+    background-color: blue;
+
+}
+
+.about .aboutinfo{
+    width: 45%;
+    height: 100%;
+    background-color: black;
+    float: left;
+}
