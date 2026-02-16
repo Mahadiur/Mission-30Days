@@ -6,6 +6,7 @@
     <title>Educational Website</title>
     <link rel="stylesheet" href="/Website-Project/CSS/style.css">
     <link rel="icon" type="png" href="/Website-Project/Image/favicon.png">
+    <link rel="stylesheet" href="/Website-Project/CSS/responsive.css">
 </head>
 <body>
     <header>
@@ -38,13 +39,19 @@
             <a href="">></a>
         </div>
         <!-- About -->
-         <div class="about">
-            <div class="aboutinfo"></div>
-            <div class="aboutinfo"></div>
+         <h2>About</h2>
+         <div class="about">            
+            <div class="aboutinfo" id="abouttext">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima debitis ullam voluptas vitae quisquam suscipit dolorum iusto mollitia. Tenetur, cupiditate reiciendis? Corporis, eligendi. Recusandae voluptate amet quisquam corrupti veritatis placeat.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima debitis ullam voluptas vitae quisquam suscipit dolorum iusto mollitia. Tenetur, cupiditate reiciendis? Corporis, eligendi. Recusandae voluptate amet quisquam corrupti veritatis placeat.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima debitis ullam voluptas vitae quisquam suscipit dolorum iusto mollitia. Tenetur, cupiditate reiciendis? Corporis, eligendi. Recusandae voluptate amet quisquam corrupti veritatis placeat.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima debitis ullam voluptas vitae quisquam suscipit dolorum iusto mollitia. Tenetur, cupiditate reiciendis? Corporis, eligendi. Recusandae voluptate amet quisquam corrupti veritatis placeat.</p>
+            </div>
+            <img class="aboutinfo" id="aboutimg" src="/Website-Project/Image/about.jpg" alt="">
+            </div>
          </div>
-
         <!-- Services -->
-
+         <h2>Services</h2>
         <div class="services">
             <div class="servicesoption"></div>
             <div class="servicesoption"></div>
@@ -52,6 +59,7 @@
         </div>
 
         <!-- Free Course Showcase -->
+            <h2>Online Free Cources</h2>
          <div class="freecourse">
             <div class="freecard"></div>
             <div class="freecard"></div>
@@ -59,6 +67,7 @@
          </div>
 
          <!-- Paid Course Showcase -->
+            <h2>Online Paid Cources</h2>
           <div class="paidcourse">
             <div class="paidcard"></div>
             <div class="paidcard"></div>
@@ -66,24 +75,37 @@
           </div>
 
           <!-- Contact -->
-
-          <form action="">
-           <label>
-            <input type="text">
-           </label> <label>
-            <input type="text">
-           </label> <label>
-            <input type="text">
-           </label> <label>
-            <input type="text">
-           </label> <label>
-            <input type="text">
-           </label> <label>
-            <input type="text">
-           </label>
-          </form>
-
-
+            <h2>Contact</h2>
+          <div class="form">
+            <form action="">
+                <label for="">
+                    <p>Enter Your Name:</p>
+                    <input type="text" placeholder="User Name">
+                </label>
+                <label for="">
+                    <p>Enter Your E-mail:</p>
+                    <input type="email" placeholder="example@gmail.com">
+                </label>
+                <label for="">
+                    <p>Enter Your Phone Number:</p>
+                    <input type="tel" placeholder="+880">
+                </label>
+                <label for="">
+                    <p>Your Service Type</p>
+                    <select name="" id="">
+                        <option value="">Web Application</option>
+                        <option value="">Data Analysis</option>
+                        <option value="">Online Free Courses</option>
+                        <option value="">Online Paid Courses</option>
+                        <option value="">Sponsership</option>
+                    </select>
+                </label>
+                <label for="">
+                    <p>Feedback</p>
+                    <input type="text">
+                </label>
+                <button type="submit">Submit</button>
+          </div>
     </main>
 
     

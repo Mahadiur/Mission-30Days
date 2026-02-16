@@ -1,59 +1,116 @@
-*{
+body{
     margin: 0px;
-    padding: 0px;
 }
+
+/* Navbar */
 header{
-    background-color: chocolate;
-    display: flex;
-    justify-content: space-around;
-}
-.navbar li{
-    float: left;
-    padding: 2em;
-    list-style-type: none;
-    font-weight: bolder;
-}
-.navbar li:hover{
-    color: rgb(93, 88, 88);
-}
-.slider{
     width: 100%;
-    height: 300px;
-    background-color: wheat;
-    margin-top: 1em;
+    background-color: beige;
+}
+header .navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.options{
-    text-align: center;
-    padding: 3em;
+.navbar li{
+    list-style-type: none;
+    float: left;
+    margin-left: 7vw;
 }
 
-.options a{
-    color: white;
-    padding: 0.5em;
-    margin: 0.5em;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 1em;
-    font-weight: bolder;
-}
-.options a:hover{
-    background-color: rgb(72, 177, 105);
-}
-.options a:not(hover){
-    background-color: grey;
-}
 
+/* About Section */
 .about{
     width: 100%;
-    height: 40vh;
-    background-color: blue;
+    display: flex;
+    justify-content: center;
 
 }
+.aboutinfo{
+    width: 40%;
+    height: 50vh;
+    margin: 0.7em;
+    border-radius: 30px;
+}
+#abouttext{
+    background-color: rgb(213, 213, 141);
+    overflow:auto;
+}
+#abouttext p{
+    padding: 0.5em;
+}
+h2{
+    text-align: center;
+    color:black;
+    font-size: 2em;
+    font-weight: bolder;
+}
 
-.about .aboutinfo{
-    width: 45%;
-    height: 100%;
+#aboutimg img{
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+}
+
+
+/* Services */
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services .servicesoption{
+    width: 30%;
+    height: 50vh;
+    background-color: wheat;
+    margin: 1.5em;
+    border-radius: 20px;
+}
+
+/* Online free courses */
+.freecourse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.freecourse .freecard{
+    width: 30%;
+    height: 50vh;
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin: 1.5em;
+}
+
+/* Online Paid Courses */
+.paidcourse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paidcourse .paidcard{
+    width: 30%;
+    height: 50vh;
+    border-radius: 20px;
+    margin: 1.5em;
+    background-color: brown;
+}
+
+/* Contact */
+.form{
+    width: 60%;
+    height: 50vh;
+    border-radius: 20px;
+    margin: auto;
     background-color: black;
-    float: left;
+    color: white;
+}
+
+.form input{
+    width: 90%;
+    margin-left: 2em;
+}
+.form p{
+    margin-right: 0px;
 }
