@@ -1,0 +1,87 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+.title{
+    text-align: center;
+    font-size: 3em;
+    font-family: Manufacturing+Consent;
+    font-weight: bolder;
+    color: rgb(194, 173, 39);
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 30%;
+    height: 400px;
+    margin: 0.5em 4em;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.box:hover{
+    transform: translateY(-40px);
+    transition-duration: 1.5s;
+    box-shadow: 5px 5px 20px rgb(159, 159, 30);
+}
+/* Human Box */
+.humanbox{
+    text-align: center;
+    background-color: rgb(96, 135, 18);
+}
+
+/* Computer box */
+.computerbox{
+    text-align: center;
+    background-color: rgb(159, 159, 30);
+}
+.boxname {
+    font-size: 2em;
+    font-family: Henny+Penny;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+}
+.boxh3{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+.reset{
+    width: 50%;
+    padding:0.5em;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: rgb(133, 28, 28);
+}
+.reset:hover{
+    background-color: red;
+}
+
+.gamebox{
+    display: block;
+    text-align: center;
+}
+.gamebox #leaderboard{
+    width: 100%;
+    color: rgb(16, 216, 16);
+}
+.gamebox .numbers{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    color: wheat;
+
+}
+
+.gamebox .number{
+    width: 100%;
+}
