@@ -13,3 +13,15 @@ let id7 = document.getElementById('ID7')
 let id8 = document.getElementById('ID8')
 let id9 = document.getElementById('ID9')
 let id10 = document.getElementById('ID10')
+
+let count = 0;
+
+humanresetid.onclick = function(){
+    count = 0;
+    humanreseltid.context = count;
+}
+
+computerresetid.onclick = function(){
+    count=0;
+    computerresltid.context = count;
+}
