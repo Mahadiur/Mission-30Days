@@ -1,27 +1,34 @@
-let humanreseltid = document.getElementById('humanreseltid')
-let computerresltid = document.getElementById('computerresltid')
-let humanresetid = document.getElementById('humanresetid')
-let computerresetid = document.getElementById('computerresetid')
-let leaderboard = document.getElementById('leaderboard')
-let id1 = document.getElementById('ID1')
-let id2 = document.getElementById('ID2')
-let id3 = document.getElementById('ID3')
-let id4 = document.getElementById('ID4')
-let id5 = document.getElementById('ID5')
-let id6 = document.getElementById('ID6')
-let id7 = document.getElementById('ID7')
-let id8 = document.getElementById('ID8')
-let id9 = document.getElementById('ID9')
-let id10 = document.getElementById('ID10')
+// HTML variable
+const humanreseltid = document.getElementById('humanresultid');
+const computerresltid = document.getElementById('computerresultid');
+const humanresetid = document.getElementById('humanresetid');
+const computerresetid = document.getElementById('computerresetid');
+const leaderboard = document.getElementById('leaderboard');
+const id1 = document.getElementById('ID1');
+const id2 = document.getElementById('ID2');
+const id3 = document.getElementById('ID3');
+const id4 = document.getElementById('ID4');
+const id5 = document.getElementById('ID5');
+const id6 = document.getElementById('ID6');
+const id7 = document.getElementById('ID7');
+const id8 = document.getElementById('ID8');
+const id9 = document.getElementById('ID9');
+const id10 = document.getElementById('ID10');
+const id11 = document.getElementById('ID11');
+const id12 = document.getElementById('ID12');
 
-let count = 0;
+// Js Variable
+let humancount = 0;
+let computercount = 0;
+let RandomNumber = Math.floor(Math.random() * 13);
 
+
+// Reset Buttons
 humanresetid.onclick = function(){
-    count = 0;
-    humanreseltid.context = count;
+    humancount = 0;
+    humanreseltid.value = humancount;
 }
-
 computerresetid.onclick = function(){
-    count=0;
-    computerresltid.context = count;
+    computercount= 0;
+    computerresltid.value = computercount;
 }

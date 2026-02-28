@@ -15,6 +15,7 @@ body{
 .Container{
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 
 .box{
@@ -59,29 +60,66 @@ body{
     font-weight: bold;
     font-size: 1em;
     background-color: rgb(133, 28, 28);
+    border: none;
 }
 .reset:hover{
     background-color: red;
+}
+.reset:active{
+    background-color: green;
 }
 
 .gamebox{
     display: block;
     text-align: center;
 }
-.gamebox #leaderboard{
-    width: 100%;
-    color: rgb(16, 216, 16);
-}
-.gamebox .numbers{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    border: 2px solid white;
-    color: wheat;
 
+.gamebox #leaderboard{
+    color: rgb(21, 133, 21);
+    font-weight: bold;
+    font-size: 2em;
 }
 
 .gamebox .number{
-    width: 100%;
+    color: white;
+    font-size: 2em;
+    width: 25%;
+    float: left;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    text-align: center;
+    margin: 10px;
+    
+
+}
+
+.gamebox .number:hover{
+    background-color: rgb(134, 183, 61);
+    border-radius: 10px;
+}
+.gamebox .number:active{
+    background-color:rgb(5, 56, 5);
+}
+
+@media (min-width:200px) and (max-width:900px){
+    .Container{
+        flex-direction: column ;
+        justify-content: center;
+    }
+    .box{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .title{
+        font-size: 1.5em;
+    }
+    .box:hover{
+        transform: translateY(-10px);
+        
+    }
+
 }
