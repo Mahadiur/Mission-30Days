@@ -1,0 +1,133 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+.title{
+    text-align: center;
+    font-size: 3em;
+    font-family: Manufacturing+Consent;
+    font-weight: bolder;
+    color: rgb(194, 173, 39);
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box{
+    width: 30%;
+    height: 400px;
+    margin: 0.5em 4em;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.box:hover{
+    transform: translateY(-40px);
+    transition-duration: 1.5s;
+    box-shadow: 5px 5px 20px rgb(159, 159, 30);
+}
+/* Human Box */
+.humanbox{
+    text-align: center;
+    background-color: rgb(96, 135, 18);
+}
+
+/* Computer box */
+.computerbox{
+    text-align: center;
+    background-color: rgb(159, 159, 30);
+}
+.boxname {
+    font-size: 2em;
+    font-family: Henny+Penny;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+}
+.boxh3{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+.reset{
+    width: 50%;
+    padding:0.5em;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: rgb(133, 28, 28);
+    border: none;
+}
+.reset:hover{
+    background-color: red;
+}
+.reset:active{
+    background-color: green;
+}
+
+.gamebox{
+    display: block;
+    text-align: center;
+}
+
+.gamebox #leaderboard{
+    color: rgb(21, 133, 21);
+    font-weight: bold;
+    font-size: 2em;
+}
+.gussbox{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 5px 5px; */
+    margin-bottom: 5px;
+}
+#inputnum{
+    width: 90%;
+    padding: 10px 5px;
+}
+
+#submit{
+    padding: 15px 30px ;
+    background-color: rgb(49, 186, 49);
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#submit:hover{
+    background-color: rgb(32, 217, 32);
+}
+.gamebox .number:hover{
+    background-color: rgb(134, 183, 61);
+    border-radius: 10px;
+}
+.gamebox .number:active{
+    background-color:rgb(5, 56, 5);
+}
+
+@media (min-width:200px) and (max-width:900px){
+    .Container{
+        flex-direction: column ;
+        justify-content: center;
+    }
+    .box{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .title{
+        font-size: 1.5em;
+    }
+    .box:hover{
+        transform: translateY(-10px);
+        
+    }
+
+}
