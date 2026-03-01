@@ -4,31 +4,43 @@ const computerresltid = document.getElementById('computerresultid');
 const humanresetid = document.getElementById('humanresetid');
 const computerresetid = document.getElementById('computerresetid');
 const leaderboard = document.getElementById('leaderboard');
-const id1 = document.getElementById('ID1');
-const id2 = document.getElementById('ID2');
-const id3 = document.getElementById('ID3');
-const id4 = document.getElementById('ID4');
-const id5 = document.getElementById('ID5');
-const id6 = document.getElementById('ID6');
-const id7 = document.getElementById('ID7');
-const id8 = document.getElementById('ID8');
-const id9 = document.getElementById('ID9');
-const id10 = document.getElementById('ID10');
-const id11 = document.getElementById('ID11');
-const id12 = document.getElementById('ID12');
+const computergussnum = document.getElementById('comgussnum');
+const humangussnum = document.getElementById('humgussnum');
+const btn = document.getElementById('submit');
+const inputnum = document.getElementById('inputnum');
+
 
 // Js Variable
 let humancount = 0;
 let computercount = 0;
-let RandomNumber = Math.floor(Math.random() * 13);
 
+btn.onclick=()=>{
+    let RandomNumber = Math.floor(Math.random() * 21);
+    let actualvalue = Number(inputnum.value);
+    computergussnum.innerText = RandomNumber;
+    humangussnum.innerText = actualvalue;
+    if (actualvalue == RandomNumber){
+        humancount++;
+        humanreseltid.innerText = humancount;
+        leaderboard.innerText = 'True';
+        leaderboard.style.color = 'green';
+
+    }
+    else if (actualvalue != RandomNumber){
+        computercount++;
+        computerresltid.innerText = computercount;
+        leaderboard.innerText = 'False';
+        leaderboard.style.color = 'red';
+    }
+
+}
 
 // Reset Buttons
 humanresetid.onclick = function(){
     humancount = 0;
-    humanreseltid.value = humancount;
+    humanreseltid.innerText = humancount;
 }
 computerresetid.onclick = function(){
     computercount= 0;
-    computerresltid.value = computercount;
+    computerresltid.innerText = computercount;
 }

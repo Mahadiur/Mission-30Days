@@ -79,22 +79,30 @@ body{
     font-weight: bold;
     font-size: 2em;
 }
-
-.gamebox .number{
-    color: white;
-    font-size: 2em;
-    width: 25%;
-    float: left;
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
-    background-color: black;
-    text-align: center;
-    margin: 10px;
-    
-
+.gussbox{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 5px 5px; */
+    margin-bottom: 5px;
+}
+#inputnum{
+    width: 90%;
+    padding: 10px 5px;
 }
 
+#submit{
+    padding: 15px 30px ;
+    background-color: rgb(49, 186, 49);
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#submit:hover{
+    background-color: rgb(32, 217, 32);
+}
 .gamebox .number:hover{
     background-color: rgb(134, 183, 61);
     border-radius: 10px;
