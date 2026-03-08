@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    padding: 0px;
+}
+
+.container1{
+    width: 20%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+#userinput{
+    width: 100%;
+    padding: 1em;
+    font-size: 1em;
+    text-align: center;
+    font-weight: bolder;
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+}
+.text{
+    text-align: left;
+}
+h3{
+    text-align: left;
+}
