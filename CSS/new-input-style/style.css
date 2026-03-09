@@ -1,5 +1,36 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-color: #00674F;
+    background-color: #102c26;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: #f7e7ce;
+    position: sticky;
+    top: 0px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between  ;
+}
+.navbar li{
+    float: left;
+    padding:1em ;
+    margin: 1em;
+    list-style: none;
+    border-radius: 2em;
+    color: #411900;
+    font-weight: bold;
+}
+.navbar li:hover{
+    background-color: white;
+    transition-duration: 150ms;
+}
+
+.text{
+    width: 70%;
+    margin: auto;
+    color: #411900;
+    background-color: white;
 }
