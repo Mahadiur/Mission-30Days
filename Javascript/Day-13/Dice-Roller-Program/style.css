@@ -34,3 +34,39 @@ h2{
 h3{
     text-align: left;
 }
+.dicenum{
+    display: flex;
+    padding: 0.5em;
+}
+.dicenum #sub-heading{
+    font-size: 1em;
+    font-weight: bold;
+}
+.dicenum #randomdicenum{
+    margin: 1em;
+}
+
+
+.btn{
+    padding: 1em 3em;
+    margin:1em;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(53, 170, 216);
+}
+.btn:hover{
+    background-color: rgb(226, 239, 245);
+}
+
+.container2{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container2 img{
+    width: 100px;
+    height: 100px;
+}
