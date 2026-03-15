@@ -12,10 +12,27 @@ function goodbye(){
 
 hello(goodbye);
 
-// Squre
-let Natural_num = [1,2,3,4,5];
-function number(element){
-    console.log(element)
+// wait
+function wait(callback){
+    setTimeout(()=>{
+        console.log('Wait ...')
+    }, 3000);
+    callback();
 }
 
-number(Natural_num);
+function HI(){
+    console.log('HI')
+}
+wait(HI);
+
+// leave
+function leave(callback){
+    console.log('Goodbye');
+    callback();
+}
+
+function seeyou(){
+    console.log('See You.')
+}
+
+leave(seeyou);
